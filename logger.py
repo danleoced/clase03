@@ -2,8 +2,8 @@ def log(debug):
     def _log(f):
         def wrap(a, b):
             if debug:
-                print('Valor de a:', a)
-                print('Valor de b:', b)
+                print('Valor ejemplo de a:', a)
+                print('Valor ejemplo de b:', b)
 
             return f(a, b)
         return wrap
